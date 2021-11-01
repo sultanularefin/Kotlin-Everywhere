@@ -14,6 +14,11 @@
  * limitations under the License.
  */
 
+//apply plugin: "com.android.application"
+
+//apply plugin: 'com.google.gms.google-services'
+//import com.android.build.OutputFile
+
 plugins {
     // Application Specific Plugins
     id(BuildPlugins.androidApplication)
@@ -25,6 +30,13 @@ plugins {
 }
 
 android {
+
+
+//    lintOptions {
+//        abortOnError false
+//    }
+
+
     compileSdk = Android.compileSdk
 
     defaultConfig {
